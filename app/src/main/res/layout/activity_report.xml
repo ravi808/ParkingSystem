@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/print"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".News" >
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="43dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+          android:background="@drawable/bg1"
+            android:text="Refresh"
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#AAFFFFFF" >
+    </ListView>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg1"
+        android:text="Vehicle Details"
+       />
+
+</LinearLayout>
